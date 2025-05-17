@@ -1,0 +1,108 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 144 45% 98%;
+    --foreground: 144 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 144 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 144 10% 15%;
+
+    --primary: 144 45% 50%;
+    --primary-foreground: 144 45% 98%;
+
+    --secondary: 36 100% 65%;
+    --secondary-foreground: 36 5% 15%;
+
+    --muted: 144 5% 92%;
+    --muted-foreground: 144 3.8% 46.9%;
+
+    --accent: 200 85% 65%;
+    --accent-foreground: 200 5% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 144 5% 88%;
+    --input: 144 5% 88%;
+    --ring: 144 55% 40%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 144 45% 98%;
+    --sidebar-foreground: 144 10% 15%;
+    --sidebar-primary: 144 45% 50%;
+    --sidebar-primary-foreground: 144 45% 98%;
+    --sidebar-accent: 144 5% 92%;
+    --sidebar-accent-foreground: 144 10% 15%;
+    --sidebar-border: 144 5% 88%;
+    --sidebar-ring: 144 55% 40%;
+  }
+
+  .dark {
+    --background: 144 15% 10%;
+    --foreground: 144 10% 90%;
+
+    --card: 144 10% 12%;
+    --card-foreground: 144 10% 90%;
+
+    --popover: 144 10% 12%;
+    --popover-foreground: 144 10% 90%;
+
+    --primary: 144 55% 40%;
+    --primary-foreground: 144 10% 98%;
+
+    --secondary: 36 60% 50%;
+    --secondary-foreground: 36 5% 98%;
+
+    --muted: 144 10% 20%;
+    --muted-foreground: 144 5% 65.1%;
+
+    --accent: 200 60% 40%;
+    --accent-foreground: 200 10% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 144 10% 20%;
+    --input: 144 10% 20%;
+    --ring: 144 55% 40%;
+    
+    --sidebar-background: 144 15% 10%;
+    --sidebar-foreground: 144 10% 90%;
+    --sidebar-primary: 144 55% 40%;
+    --sidebar-primary-foreground: 144 10% 98%;
+    --sidebar-accent: 144 10% 20%;
+    --sidebar-accent-foreground: 144 10% 90%;
+    --sidebar-border: 144 10% 20%;
+    --sidebar-ring: 144 55% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.nav-link {
+  @apply relative px-2 py-1 text-foreground transition-colors hover:text-forest-600 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-forest-600 after:transition-all hover:after:w-full;
+}
+
+.nav-link.active {
+  @apply text-forest-600 after:w-full;
+}
+
+.hover-grow {
+  @apply transition-transform duration-300 hover:scale-105;
+}
