@@ -1,9 +1,7 @@
-
-import React, { useState } from 'react';
-import { districtsData, DistrictData } from '@/data/districts_data';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Label } from '@/components/ui/label';
-import { Button } from '@/components/ui/button';
+import React, { useState } from "react";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
 import {
   Table,
   TableBody,
@@ -11,30 +9,42 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/table';
+} from "@/components/ui/table";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select';
-import { LeafyGreen } from 'lucide-react';
+} from "@/components/ui/select";
+import { LeafyGreen } from "lucide-react";
+
+interface DistrictData {
+  _id: string;
+  State_Union_Territory: string;
+  District: string;
+  Soil_Type: string;
+  Climate_Type: string;
+}
 
 interface DistrictSelectorProps {
   onDistrictSelect: (district: DistrictData | null) => void;
+  districtsData: DistrictData[];
 }
 
-const DistrictSelector: React.FC<DistrictSelectorProps> = ({ 
-  onDistrictSelect 
+const DistrictSelector: React.FC<DistrictSelectorProps> = ({
+  onDistrictSelect,
+  districtsData = [],
 }) => {
-  const [selectedDistrict, setSelectedDistrict] = useState<string>('');
+  const [selectedDistrictId, setSelectedDistrictId] = useState<string>("");
   const [districtInfo, setDistrictInfo] = useState<DistrictData | null>(null);
+
+  const safeDistrictsData = Array.isArray(districtsData) ? districtsData : [];
 
   const handleDistrictSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const district = districtsData.find(
-      d => d.District.toLowerCase() === selectedDistrict.toLowerCase()
+    const district = safeDistrictsData.find(
+      (d) => d._id === selectedDistrictId
     );
     setDistrictInfo(district || null);
     onDistrictSelect(district || null);
@@ -53,16 +63,16 @@ const DistrictSelector: React.FC<DistrictSelectorProps> = ({
         <form onSubmit={handleDistrictSubmit}>
           <div className="mb-4">
             <Label htmlFor="district">Select District</Label>
-            <Select 
-              value={selectedDistrict} 
-              onValueChange={setSelectedDistrict}
+            <Select
+              value={selectedDistrictId}
+              onValueChange={setSelectedDistrictId}
             >
               <SelectTrigger>
                 <SelectValue placeholder="Select a district" />
               </SelectTrigger>
               <SelectContent>
-                {districtsData.map((district) => (
-                  <SelectItem key={district.District} value={district.District}>
+                {safeDistrictsData.map((district) => (
+                  <SelectItem key={district._id} value={district._id}>
                     {district.District}, {district.State_Union_Territory}
                   </SelectItem>
                 ))}
@@ -70,9 +80,9 @@ const DistrictSelector: React.FC<DistrictSelectorProps> = ({
             </Select>
           </div>
 
-          <Button 
+          <Button
             type="submit"
-            disabled={!selectedDistrict}
+            disabled={!selectedDistrictId}
             className="w-full bg-forest-600 hover:bg-forest-700 text-white"
           >
             Get District Info
@@ -81,7 +91,9 @@ const DistrictSelector: React.FC<DistrictSelectorProps> = ({
 
         {districtInfo && (
           <div className="mt-6">
-            <h3 className="text-lg font-medium mb-2 text-forest-700">District Details</h3>
+            <h3 className="text-lg font-medium mb-2 text-forest-700">
+              District Details
+            </h3>
             <Table>
               <TableHeader>
                 <TableRow>

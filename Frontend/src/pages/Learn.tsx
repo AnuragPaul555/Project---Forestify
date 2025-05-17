@@ -1,27 +1,84 @@
-
-import React, { useState } from 'react';
-import Layout from '../components/Layout';
-import TreeCard from '../components/TreeCard';
-import { getHighOxygenTrees, learnTrees } from '../data/trees_data';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { TreeDeciduous, Search } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import Layout from "../components/Layout";
+import TreeCard from "../components/TreeCard";
+import { getHighOxygenTrees, learnTrees, TreeData } from "../data/trees_data";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { TreeDeciduous, Search } from "lucide-react";
 
 const Learn = () => {
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
+  const [treesData, setTreesData] = useState<TreeData[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  const highOxygenTrees = getHighOxygenTrees();
+  useEffect(() => {
+    const fetchTrees = async () => {
+      try {
+        setLoading(true);
+        const response = await axios.get("http://localhost:5000/api/trees");
+        if (Array.isArray(response.data)) {
+          setTreesData(response.data);
+        } else {
+          throw new Error("Invalid data format received from API");
+        }
+      } catch (err) {
+        console.error("Error fetching trees:", err);
+        setError("Failed to fetch trees data");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTrees();
+  }, []);
+
+  const highOxygenTrees = getHighOxygenTrees(treesData);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      window.open(`https://www.britannica.com/search?query=${encodeURIComponent(searchQuery)}`, '_blank');
+      window.open(
+        `https://www.britannica.com/search?query=${encodeURIComponent(
+          searchQuery
+        )}`,
+        "_blank"
+      );
     }
   };
 
   const handleTreeClick = (treeName: string) => {
-    window.open(`https://www.britannica.com/search?query=${encodeURIComponent(treeName)}`, '_blank');
+    window.open(
+      `https://www.britannica.com/search?query=${encodeURIComponent(treeName)}`,
+      "_blank"
+    );
   };
+
+  if (loading) {
+    return (
+      <Layout>
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-forest-600 mx-auto"></div>
+            <p className="mt-4 text-forest-700">Loading trees data...</p>
+          </div>
+        </div>
+      </Layout>
+    );
+  }
+
+  if (error) {
+    return (
+      <Layout>
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="text-center text-red-600">
+            <p>{error}</p>
+          </div>
+        </div>
+      </Layout>
+    );
+  }
 
   return (
     <Layout>
@@ -40,7 +97,7 @@ const Learn = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="flex-grow"
               />
-              <Button 
+              <Button
                 type="submit"
                 className="bg-forest-600 hover:bg-forest-700 text-white"
               >
@@ -63,9 +120,9 @@ const Learn = () => {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {highOxygenTrees.slice(0, 8).map((tree, index) => (
-              <TreeCard 
-                key={index} 
-                tree={tree} 
+              <TreeCard
+                key={index}
+                tree={tree}
                 onClick={() => handleTreeClick(tree.Common_Name)}
               />
             ))}
@@ -81,9 +138,9 @@ const Learn = () => {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {learnTrees.map((tree, index) => (
-              <TreeCard 
-                key={index} 
-                tree={tree} 
+              <TreeCard
+                key={index}
+                tree={tree}
                 isStandardTree={true}
                 onClick={() => handleTreeClick(tree.name)}
               />
@@ -97,22 +154,29 @@ const Learn = () => {
           <div className="max-w-5xl mx-auto">
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-1/2">
-                <h2 className="text-3xl font-bold mb-6 text-forest-800">Keep Learning</h2>
+                <h2 className="text-3xl font-bold mb-6 text-forest-800">
+                  Keep Learning
+                </h2>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Trees are not just beautiful additions to our landscape—they're vital for our ecosystem. They filter our air, provide habitat for wildlife, prevent soil erosion, and help combat climate change.
+                  Trees are not just beautiful additions to our
+                  landscape—they're vital for our ecosystem. They filter our
+                  air, provide habitat for wildlife, prevent soil erosion, and
+                  help combat climate change.
                 </p>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  The more we understand about trees and their needs, the better we can integrate them into our communities and maximize their benefits.
+                  The more we understand about trees and their needs, the better
+                  we can integrate them into our communities and maximize their
+                  benefits.
                 </p>
                 <p className="text-lg text-forest-600 font-medium">
                   Keep exploring, keep planting, keep growing.
                 </p>
               </div>
-              
+
               <div className="md:w-1/2 flex justify-center">
-                <img 
-                  src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Forest canopy" 
+                <img
+                  src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Forest canopy"
                   className="rounded-lg shadow-lg max-w-full h-auto"
                 />
               </div>
