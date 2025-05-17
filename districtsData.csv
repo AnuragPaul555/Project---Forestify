@@ -1,0 +1,768 @@
+Serial_Number,State_Union_Territory,District,Soil_Type,Climate_Type
+1,Andaman and Nicobar Islands (UT),Nicobar,"""Coastal, Sandy, Forest""",Tropical Monsoon
+2,Andaman and Nicobar Islands (UT),North and Middle Andaman,"""Coastal, Sandy, Forest""",Tropical Monsoon
+3,Andaman and Nicobar Islands (UT),South Andaman,"""Coastal, Sandy, Forest""",Tropical Monsoon
+4,Andhra Pradesh,Alluri Sitharama Raju,"""Red, Laterite, Forest""",Tropical Wet and Dry
+5,Andhra Pradesh,Anakapalli,"""Alluvial, Red, Laterite""",Tropical Wet and Dry
+6,Andhra Pradesh,Anantapuram,"""Red, Sandy, Black""",Semi-Arid
+7,Andhra Pradesh,Annamayya,"""Red, Black, Loamy""",Tropical Wet and Dry
+8,Andhra Pradesh,Bapatla,"""Alluvial, Clayey""",Tropical Monsoon
+9,Andhra Pradesh,Chittoor,"""Red, Black, Loamy""",Tropical Wet and Dry
+10,Andhra Pradesh,Dr. B. R. Ambedkar Konaseema,"""Alluvial, Clayey""",Tropical Monsoon
+11,Andhra Pradesh,East Godavari,"""Alluvial, Clayey""",Tropical Monsoon
+12,Andhra Pradesh,Eluru,"""Alluvial, Clayey""",Tropical Wet and Dry
+13,Andhra Pradesh,Guntur,"""Alluvial, Black, Red""",Tropical Wet and Dry
+14,Andhra Pradesh,Kakinada,"""Alluvial, Coastal""",Tropical Monsoon
+15,Andhra Pradesh,Krishna,"""Alluvial, Black, Red""",Tropical Monsoon
+16,Andhra Pradesh,Kurnool,"""Black, Red, Loamy""",Semi-Arid
+17,Andhra Pradesh,Nandyal,"""Black, Red, Loamy""",Semi-Arid
+18,Andhra Pradesh,NTR,"""Alluvial, Black, Red""",Tropical Monsoon
+19,Andhra Pradesh,Palnadu,"""Black, Red, Loamy""",Tropical Wet and Dry
+20,Andhra Pradesh,Parvathipuram Manyam,"""Red, Laterite, Forest""",Tropical Wet and Dry
+21,Andhra Pradesh,Prakasam,"""Red, Black, Loamy""",Tropical Wet and Dry
+22,Andhra Pradesh,Sri Potti Sriramulu Nellore,"""Alluvial, Red, Loamy""",Tropical Wet and Dry
+23,Andhra Pradesh,Sri Sathya Sai,"""Red, Black, Loamy""",Tropical Wet and Dry
+24,Andhra Pradesh,Srikakulam,"""Alluvial, Red, Coastal""",Tropical Wet and Dry
+25,Andhra Pradesh,Tirupati,"""Red, Black, Loamy""",Tropical Wet and Dry
+26,Andhra Pradesh,Visakhapatnam,"""Red, Laterite, Coastal""",Tropical Wet and Dry
+27,Andhra Pradesh,Vizianagaram,"""Red, Alluvial, Coastal""",Tropical Wet and Dry
+28,Andhra Pradesh,West Godavari,"""Alluvial, Clayey""",Tropical Monsoon
+29,Andhra Pradesh,YSR (Kadapa),"""Red, Black, Loamy""",Semi-Arid
+30,Arunachal Pradesh,Tawang,"""Forest, Loamy""",Alpine
+31,Arunachal Pradesh,West Kameng,"""Forest, Loamy""",Subtropical Highland
+32,Arunachal Pradesh,Bichom,"""Forest, Loamy""",Subtropical Highland
+33,Arunachal Pradesh,East Kameng,"""Forest, Loamy""",Subtropical Highland
+34,Arunachal Pradesh,Pakke-Kessang,"""Forest, Loamy""",Subtropical Highland
+35,Arunachal Pradesh,Kurung Kumey,"""Forest, Loamy""",Subtropical Highland
+36,Arunachal Pradesh,Papum Pare,"""Forest, Loamy""",Humid Subtropical
+37,Arunachal Pradesh,Kra Daadi,"""Forest, Loamy""",Subtropical Highland
+38,Arunachal Pradesh,Lower Subansiri,"""Forest, Loamy""",Subtropical Highland
+39,Arunachal Pradesh,Kamle,"""Forest, Loamy""",Subtropical Highland
+40,Arunachal Pradesh,Keyi Panyor,"""Forest, Loamy""",Subtropical Highland
+41,Arunachal Pradesh,Upper Subansiri,"""Forest, Loamy""",Subtropical Highland
+42,Arunachal Pradesh,Shi-Yomi,"""Forest, Loamy""",Subtropical Highland
+43,Arunachal Pradesh,West Siang,"""Forest, Loamy""",Subtropical Highland
+44,Arunachal Pradesh,Siang,"""Forest, Loamy""",Subtropical Highland
+45,Arunachal Pradesh,Lower Siang,"""Forest, Loamy""",Humid Subtropical
+46,Arunachal Pradesh,Lepa-Rada,"""Forest, Loamy""",Subtropical Highland
+47,Arunachal Pradesh,Upper Siang,"""Forest, Loamy""",Subtropical Highland
+48,Arunachal Pradesh,East Siang,"""Forest, Loamy""",Humid Subtropical
+49,Arunachal Pradesh,Dibang Valley,"""Forest, Loamy""",Subtropical Highland
+50,Arunachal Pradesh,Lower Dibang Valley,"""Forest, Loamy""",Humid Subtropical
+51,Arunachal Pradesh,Lohit,"""Forest, Loamy""",Humid Subtropical
+52,Arunachal Pradesh,Anjaw,"""Forest, Loamy""",Subtropical Highland
+53,Arunachal Pradesh,Namsai,"""Forest, Loamy""",Humid Subtropical
+54,Arunachal Pradesh,Changlang,"""Forest, Loamy""",Humid Subtropical
+55,Arunachal Pradesh,Tirap,"""Forest, Loamy""",Humid Subtropical
+56,Arunachal Pradesh,Longding,"""Forest, Loamy""",Humid Subtropical
+57,Assam,Baksa,"""Alluvial, Sandy""",Humid Subtropical
+58,Assam,Barpeta,"""Alluvial, Sandy""",Humid Subtropical
+59,Assam,Biswanath,"""Alluvial, Sandy""",Humid Subtropical
+60,Assam,Bongaigaon,"""Alluvial, Sandy""",Humid Subtropical
+61,Assam,Cachar,"""Alluvial, Clayey""",Humid Subtropical
+62,Assam,Charaideo,"""Alluvial, Sandy""",Humid Subtropical
+63,Assam,Chirang,"""Alluvial, Sandy""",Humid Subtropical
+64,Assam,Darrang,"""Alluvial, Sandy""",Humid Subtropical
+65,Assam,Dhemaji,"""Alluvial, Sandy""",Humid Subtropical
+66,Assam,Dhubri,"""Alluvial, Clayey""",Humid Subtropical
+67,Assam,Dibrugarh,"""Alluvial, Sandy""",Humid Subtropical
+68,Assam,Dima Hasao,"""Forest, Loamy, Laterite""",Humid Subtropical
+69,Assam,Goalpara,"""Alluvial, Sandy""",Humid Subtropical
+70,Assam,Golaghat,"""Alluvial, Sandy""",Humid Subtropical
+71,Assam,Hailakandi,"""Alluvial, Clayey""",Humid Subtropical
+72,Assam,Hojai,"""Alluvial, Sandy""",Humid Subtropical
+73,Assam,Jorhat,"""Alluvial, Sandy""",Humid Subtropical
+74,Assam,Kamrup,"""Alluvial, Sandy""",Humid Subtropical
+75,Assam,Kamrup Metropolitan,"""Alluvial, Sandy""",Humid Subtropical
+76,Assam,Karbi Anglong,"""Forest, Loamy, Laterite""",Humid Subtropical
+77,Assam,Karimganj,"""Alluvial, Clayey""",Humid Subtropical
+78,Assam,Kokrajhar,"""Alluvial, Sandy""",Humid Subtropical
+79,Assam,Lakhimpur,"""Alluvial, Sandy""",Humid Subtropical
+80,Assam,Majuli,"""Alluvial, Sandy""",Humid Subtropical
+81,Assam,Morigaon,"""Alluvial, Sandy""",Humid Subtropical
+82,Assam,Nagaon,"""Alluvial, Sandy""",Humid Subtropical
+83,Assam,Nalbari,"""Alluvial, Sandy""",Humid Subtropical
+84,Assam,Sivasagar,"""Alluvial, Sandy""",Humid Subtropical
+85,Assam,Sonitpur,"""Alluvial, Sandy""",Humid Subtropical
+86,Assam,South Salmara-Mankachar,"""Alluvial, Clayey""",Humid Subtropical
+87,Assam,Tinsukia,"""Alluvial, Sandy""",Humid Subtropical
+88,Assam,Udalguri,"""Alluvial, Sandy""",Humid Subtropical
+89,Assam,West Karbi Anglong,"""Forest, Loamy, Laterite""",Humid Subtropical
+90,Bihar,Araria,"""Alluvial, Sandy""",Humid Subtropical
+91,Bihar,Arwal,"""Alluvial, Sandy""",Humid Subtropical
+92,Bihar,Aurangabad,"""Alluvial, Sandy""",Humid Subtropical
+93,Bihar,Banka,"""Alluvial, Sandy""",Humid Subtropical
+94,Bihar,Begusarai,"""Alluvial, Sandy""",Humid Subtropical
+95,Bihar,Bhagalpur,"""Alluvial, Sandy""",Humid Subtropical
+96,Bihar,Bhojpur,"""Alluvial, Sandy""",Humid Subtropical
+97,Bihar,Buxar,"""Alluvial, Sandy""",Humid Subtropical
+98,Bihar,Darbhanga,"""Alluvial, Sandy""",Humid Subtropical
+99,Bihar,East Champaran,"""Alluvial, Sandy""",Humid Subtropical
+100,Bihar,Gaya,"""Alluvial, Sandy""",Humid Subtropical
+101,Bihar,Gopalganj,"""Alluvial, Sandy""",Humid Subtropical
+102,Bihar,Jamui,"""Alluvial, Sandy""",Humid Subtropical
+103,Bihar,Jehanabad,"""Alluvial, Sandy""",Humid Subtropical
+104,Bihar,Kaimur,"""Alluvial, Sandy""",Humid Subtropical
+105,Bihar,Katihar,"""Alluvial, Sandy""",Humid Subtropical
+106,Bihar,Khagaria,"""Alluvial, Sandy""",Humid Subtropical
+107,Bihar,Kishanganj,"""Alluvial, Sandy""",Humid Subtropical
+108,Bihar,Lakhisarai,"""Alluvial, Sandy""",Humid Subtropical
+109,Bihar,Madhepura,"""Alluvial, Sandy""",Humid Subtropical
+110,Bihar,Madhubani,"""Alluvial, Sandy""",Humid Subtropical
+111,Bihar,Munger,"""Alluvial, Sandy""",Humid Subtropical
+112,Bihar,Muzaffarpur,"""Alluvial, Sandy""",Humid Subtropical
+113,Bihar,Nalanda,"""Alluvial, Sandy""",Humid Subtropical
+114,Bihar,Nawada,"""Alluvial, Sandy""",Humid Subtropical
+115,Bihar,Patna,"""Alluvial, Sandy""",Humid Subtropical
+116,Bihar,Purnia,"""Alluvial, Sandy""",Humid Subtropical
+117,Bihar,Rohtas,"""Alluvial, Sandy""",Humid Subtropical
+118,Bihar,Saharsa,"""Alluvial, Sandy""",Humid Subtropical
+119,Bihar,Samastipur,"""Alluvial, Sandy""",Humid Subtropical
+120,Bihar,Saran,"""Alluvial, Sandy""",Humid Subtropical
+121,Bihar,Sheikhpura,"""Alluvial, Sandy""",Humid Subtropical
+122,Bihar,Sheohar,"""Alluvial, Sandy""",Humid Subtropical
+123,Bihar,Sitamarhi,"""Alluvial, Sandy""",Humid Subtropical
+124,Bihar,Siwan,"""Alluvial, Sandy""",Humid Subtropical
+125,Bihar,Supaul,"""Alluvial, Sandy""",Humid Subtropical
+126,Bihar,Vaishali,"""Alluvial, Sandy""",Humid Subtropical
+127,Bihar,West Champaran,"""Alluvial, Sandy""",Humid Subtropical
+128,Chandigarh,Chandigarh,"""Alluvial, Sandy""",Humid Subtropical
+129,Chhattisgarh,Balod,"""Alluvial, Black""",Tropical
+130,Chhattisgarh,Baloda Bazar,"""Alluvial, Black""",Tropical
+131,Chhattisgarh,Balrampur,"""Alluvial, Black""",Tropical
+132,Chhattisgarh,Bastar,"""Red, Laterite""",Tropical
+133,Chhattisgarh,Bemetara,"""Alluvial, Black""",Tropical
+134,Chhattisgarh,Bijapur,"""Red, Laterite""",Tropical
+135,Chhattisgarh,Bilaspur,"""Alluvial, Black""",Tropical
+136,Chhattisgarh,Dantewada,"""Red, Laterite""",Tropical
+137,Chhattisgarh,Dhamtari,"""Alluvial, Black""",Tropical
+138,Chhattisgarh,Durg,"""Alluvial, Black""",Tropical
+139,Chhattisgarh,Gariaband,"""Alluvial, Black""",Tropical
+140,Chhattisgarh,Gaurela-Pendra-Marwahi,"""Alluvial, Black""",Tropical
+141,Chhattisgarh,Janjgir-Champa,"""Alluvial, Black""",Tropical
+142,Chhattisgarh,Jashpur,"""Red, Laterite""",Tropical
+143,Chhattisgarh,Kabirdham,"""Alluvial, Black""",Tropical
+144,Chhattisgarh,Kanker,"""Red, Laterite""",Tropical
+145,Chhattisgarh,Kondagaon,"""Red, Laterite""",Tropical
+146,Chhattisgarh,Korba,"""Alluvial, Black""",Tropical
+147,Chhattisgarh,Koriya,"""Alluvial, Black""",Tropical
+148,Chhattisgarh,Mahasamund,"""Alluvial, Black""",Tropical
+149,Chhattisgarh,Mungeli,"""Alluvial, Black""",Tropical
+150,Chhattisgarh,Narayanpur,"""Red, Laterite""",Tropical
+151,Chhattisgarh,Raigarh,"""Alluvial, Black""",Tropical
+152,Chhattisgarh,Raipur,"""Alluvial, Black""",Tropical
+153,Chhattisgarh,Rajnandgaon,"""Alluvial, Black""",Tropical
+154,Chhattisgarh,Sukma,"""Red, Laterite""",Tropical
+155,Chhattisgarh,Surajpur,"""Alluvial, Black""",Tropical
+156,Chhattisgarh,Surguja,"""Alluvial, Black""",Tropical
+157,Chhattisgarh,Manendragarh-Chirmiri-Bharatpur,"""Alluvial, Black""",Tropical
+158,Chhattisgarh,Mohla-Manpur-Ambagarh Chowki,"""Alluvial, Black""",Tropical
+159,Chhattisgarh,Sarangarh-Bilaigarh,"""Alluvial, Black""",Tropical
+160,Chhattisgarh,Khairagarh-Chhuikhadan-Gandai,"""Alluvial, Black""",Tropical
+161,Chhattisgarh,Sakti,"""Alluvial, Black""",Tropical
+162,Dadra and Nagar Haveli and Daman and Diu (UT),Dadra and Nagar Haveli,"""Coastal, Sandy""",Tropical Wet & Dry
+163,Dadra and Nagar Haveli and Daman and Diu (UT),Daman,"""Coastal, Sandy""",Tropical Wet & Dry
+164,Dadra and Nagar Haveli and Daman and Diu (UT),Diu,"""Coastal, Sandy""",Tropical Wet & Dry
+165,Delhi (UT),Central Delhi,"""Alluvial, Sandy""",Humid Subtropical
+166,Delhi (UT),East Delhi,"""Alluvial, Sandy""",Humid Subtropical
+167,Delhi (UT),New Delhi,"""Alluvial, Sandy""",Humid Subtropical
+168,Delhi (UT),North Delhi,"""Alluvial, Sandy""",Humid Subtropical
+169,Delhi (UT),North East Delhi,"""Alluvial, Sandy""",Humid Subtropical
+170,Delhi (UT),North West Delhi,"""Alluvial, Sandy""",Humid Subtropical
+171,Delhi (UT),Shahdara,"""Alluvial, Sandy""",Humid Subtropical
+172,Delhi (UT),South Delhi,"""Alluvial, Sandy""",Humid Subtropical
+173,Delhi (UT),South East Delhi,"""Alluvial, Sandy""",Humid Subtropical
+174,Delhi (UT),South West Delhi,"""Alluvial, Sandy""",Humid Subtropical
+175,Delhi (UT),West Delhi,"""Alluvial, Sandy""",Humid Subtropical
+176,Goa,North Goa,"""Laterite, Coastal""",Tropical Monsoon
+177,Goa,South Goa,"""Laterite, Coastal""",Tropical Monsoon
+178,Gujarat,Ahmedabad,"""Alluvial, Sandy""",Semi-Arid
+179,Gujarat,Amreli,"""Black, Sandy""",Semi-Arid
+180,Gujarat,Anand,"""Alluvial, Black""",Semi-Arid
+181,Gujarat,Aravalli,"""Black, Sandy""",Semi-Arid
+182,Gujarat,Banaskantha,"""Black, Sandy""",Arid
+183,Gujarat,Bharuch,"""Alluvial, Black""",Semi-Arid
+184,Gujarat,Bhavnagar,"""Black, Sandy""",Semi-Arid
+185,Gujarat,Botad,"""Black, Sandy""",Semi-Arid
+186,Gujarat,Chhota Udaipur,"""Black, Sandy""",Semi-Arid
+187,Gujarat,Dahod,"""Black, Sandy""",Semi-Arid
+188,Gujarat,Dang,"""Laterite, Forest""",Humid Subtropical
+189,Gujarat,Devbhoomi Dwarka,"""Sandy, Coastal""",Arid
+190,Gujarat,Gandhinagar,"""Alluvial, Black""",Semi-Arid
+191,Gujarat,Gir Somnath,"""Black, Sandy""",Semi-Arid
+192,Gujarat,Jamnagar,"""Sandy, Coastal""",Arid
+193,Gujarat,Junagadh,"""Black, Sandy""",Semi-Arid
+194,Gujarat,Kheda,"""Alluvial, Black""",Semi-Arid
+195,Gujarat,Kutch,"""Sandy, Coastal""",Arid
+196,Gujarat,Mahisagar,"""Black, Sandy""",Semi-Arid
+197,Gujarat,Mehsana,"""Black, Sandy""",Semi-Arid
+198,Gujarat,Morbi,"""Black, Sandy""",Semi-Arid
+199,Gujarat,Narmada,"""Black, Sandy""",Semi-Arid
+200,Gujarat,Navsari,"""Alluvial, Black""",Humid Subtropical
+201,Gujarat,Panchmahal,"""Black, Sandy""",Semi-Arid
+202,Gujarat,Patan,"""Black, Sandy""",Arid
+203,Gujarat,Porbandar,"""Sandy, Coastal""",Arid
+204,Gujarat,Rajkot,"""Black, Sandy""",Semi-Arid
+205,Gujarat,Sabarkantha,"""Black, Sandy""",Semi-Arid
+206,Gujarat,Surat,"""Alluvial, Black""",Humid Subtropical
+207,Gujarat,Surendranagar,"""Black, Sandy""",Semi-Arid
+208,Gujarat,Tapi,"""Black, Sandy""",Humid Subtropical
+209,Gujarat,Vadodara,"""Alluvial, Black""",Semi-Arid
+210,Gujarat,Valsad,"""Alluvial, Black""",Humid Subtropical
+211,Haryana,Ambala,"""Alluvial, Sandy""",Humid Subtropical
+212,Haryana,Bhiwani,"""Alluvial, Sandy""",Semi-Arid
+213,Haryana,Charkhi Dadri,"""Alluvial, Sandy""",Semi-Arid
+214,Haryana,Faridabad,"""Alluvial, Sandy""",Humid Subtropical
+215,Haryana,Fatehabad,"""Alluvial, Sandy""",Semi-Arid
+216,Haryana,Gurugram,"""Alluvial, Sandy""",Semi-Arid
+217,Haryana,Hisar,"""Alluvial, Sandy""",Semi-Arid
+218,Haryana,Jhajjar,"""Alluvial, Sandy""",Semi-Arid
+219,Haryana,Jind,"""Alluvial, Sandy""",Semi-Arid
+220,Haryana,Kaithal,"""Alluvial, Sandy""",Semi-Arid
+221,Haryana,Karnal,"""Alluvial, Sandy""",Humid Subtropical
+222,Haryana,Kurukshetra,"""Alluvial, Sandy""",Humid Subtropical
+223,Haryana,Mahendragarh,"""Alluvial, Sandy""",Semi-Arid
+224,Haryana,Nuh,"""Alluvial, Sandy""",Semi-Arid
+225,Haryana,Palwal,"""Alluvial, Sandy""",Humid Subtropical
+226,Haryana,Panchkula,"""Alluvial, Sandy""",Humid Subtropical
+227,Haryana,Panipat,"""Alluvial, Sandy""",Humid Subtropical
+228,Haryana,Rewari,"""Alluvial, Sandy""",Semi-Arid
+229,Haryana,Rohtak,"""Alluvial, Sandy""",Semi-Arid
+230,Haryana,Sirsa,"""Alluvial, Sandy""",Semi-Arid
+231,Haryana,Sonipat,"""Alluvial, Sandy""",Semi-Arid
+232,Haryana,Yamunanagar,"""Alluvial, Sandy""",Humid Subtropical
+233,Himachal Pradesh,Bilaspur,"""Alluvial, Black""",Subtropical
+234,Himachal Pradesh,Chamba,"""Forest, Loamy""",Temperate
+235,Himachal Pradesh,Hamirpur,"""Alluvial, Sandy""",Subtropical
+236,Himachal Pradesh,Kangra,"""Alluvial, Sandy""",Subtropical to Temperate
+237,Himachal Pradesh,Kinnaur,"""Forest, Loamy""",Cold Desert
+238,Himachal Pradesh,Kullu,"""Forest, Loamy""",Temperate
+239,Himachal Pradesh,Lahaul and Spiti,"""Forest, Loamy""",Cold Desert
+240,Himachal Pradesh,Mandi,"""Forest, Loamy""",Subtropical to Temperate
+241,Himachal Pradesh,Shimla,"""Forest, Loamy""",Temperate
+242,Himachal Pradesh,Sirmaur,"""Forest, Loamy""",Subtropical
+243,Himachal Pradesh,Solan,"""Forest, Loamy""",Subtropical
+244,Himachal Pradesh,Una,"""Alluvial, Sandy""",Subtropical
+245,Jammu and Kashmir,Anantnag,"""Alluvial, Loamy""",Temperate
+246,Jammu and Kashmir,Bandipora,"""Alluvial, Loamy""",Temperate
+247,Jammu and Kashmir,Baramulla,"""Alluvial, Loamy""",Temperate
+248,Jammu and Kashmir,Budgam,"""Alluvial, Loamy""",Temperate
+249,Jammu and Kashmir,Doda,"""Forest, Loamy""",Subtropical Highland
+250,Jammu and Kashmir,Ganderbal,"""Alluvial, Loamy""",Temperate
+251,Jammu and Kashmir,Jammu,"""Alluvial, Loamy""",Humid Subtropical
+252,Jammu and Kashmir,Kathua,"""Alluvial, Loamy""",Humid Subtropical
+253,Jammu and Kashmir,Kishtwar,"""Forest, Loamy""",Subtropical Highland
+254,Jammu and Kashmir,Kulgam,"""Alluvial, Loamy""",Temperate
+255,Jammu and Kashmir,Kupwara,"""Alluvial, Loamy""",Temperate
+256,Jammu and Kashmir,Poonch,"""Forest, Loamy""",Subtropical Highland
+257,Jammu and Kashmir,Pulwama,"""Alluvial, Loamy""",Temperate
+258,Jammu and Kashmir,Rajouri,"""Forest, Loamy""",Subtropical Highland
+259,Jammu and Kashmir,Ramban,"""Forest, Loamy""",Subtropical Highland
+260,Jammu and Kashmir,Reasi,"""Forest, Loamy""",Subtropical Highland
+261,Jammu and Kashmir,Samba,"""Alluvial, Loamy""",Humid Subtropical
+262,Jammu and Kashmir,Shopian,"""Alluvial, Loamy""",Temperate
+263,Jammu and Kashmir,Srinagar,"""Alluvial, Loamy""",Temperate
+264,Jammu and Kashmir,Udhampur,"""Forest, Loamy""",Subtropical Highland
+265,Jharkhand,Bokaro,"""Alluvial, Black""",Tropical Wet and Dry
+266,Jharkhand,Chatra,"""Red, Laterite""",Tropical Wet and Dry
+267,Jharkhand,Deoghar,"""Alluvial, Sandy""",Tropical Wet and Dry
+268,Jharkhand,Dhanbad,"""Alluvial, Black""",Tropical Wet and Dry
+269,Jharkhand,Dumka,"""Alluvial, Sandy""",Tropical Wet and Dry
+270,Jharkhand,East Singhbhum,"""Red, Laterite""",Tropical Wet and Dry
+271,Jharkhand,Garhwa,"""Red, Laterite""",Tropical Wet and Dry
+272,Jharkhand,Giridih,"""Alluvial, Sandy""",Tropical Wet and Dry
+273,Jharkhand,Godda,"""Alluvial, Sandy""",Tropical Wet and Dry
+274,Jharkhand,Gumla,"""Red, Laterite""",Tropical Wet and Dry
+275,Jharkhand,Hazaribagh,"""Red, Laterite""",Tropical Wet and Dry
+276,Jharkhand,Jamtara,"""Alluvial, Sandy""",Tropical Wet and Dry
+277,Jharkhand,Khunti,"""Red, Laterite""",Tropical Wet and Dry
+278,Jharkhand,Koderma,"""Red, Laterite""",Tropical Wet and Dry
+279,Jharkhand,Latehar,"""Red, Laterite""",Tropical Wet and Dry
+280,Jharkhand,Lohardaga,"""Red, Laterite""",Tropical Wet and Dry
+281,Jharkhand,Pakur,"""Alluvial, Sandy""",Tropical Wet and Dry
+282,Jharkhand,Palamu,"""Red, Laterite""",Tropical Wet and Dry
+283,Jharkhand,Ramgarh,"""Red, Laterite""",Tropical Wet and Dry
+284,Jharkhand,Ranchi,"""Red, Laterite""",Tropical Wet and Dry
+285,Jharkhand,Sahebganj,"""Alluvial, Sandy""",Tropical Wet and Dry
+286,Jharkhand,Seraikela Kharsawan,"""Red, Laterite""",Tropical Wet and Dry
+287,Jharkhand,Simdega,"""Red, Laterite""",Tropical Wet and Dry
+288,Jharkhand,West Singhbhum,"""Red, Laterite""",Tropical Wet and Dry
+289,Karnataka,Bagalkot,"""Black, Red""",Semi-Arid
+290,Karnataka,Ballari,"""Red, Laterite""",Semi-Arid
+291,Karnataka,Belagavi,"""Black, Red""",Tropical Monsoon
+292,Karnataka,Bengaluru Rural,"""Red, Laterite""",Tropical Wet and Dry
+293,Karnataka,Bengaluru Urban,"""Red, Laterite""",Tropical Wet and Dry
+294,Karnataka,Bidar,"""Black, Red""",Semi-Arid
+295,Karnataka,Chamarajanagar,"""Red, Laterite""",Tropical Wet and Dry
+296,Karnataka,Chikkaballapur,"""Red, Laterite""",Tropical Wet and Dry
+297,Karnataka,Chikkamagaluru,"""Red, Laterite""",Tropical Monsoon
+298,Karnataka,Chitradurga,"""Red, Laterite""",Semi-Arid
+299,Karnataka,Dakshina Kannada,"""Laterite, Coastal""",Tropical Monsoon
+300,Karnataka,Davanagere,"""Red, Laterite""",Semi-Arid
+301,Karnataka,Dharwad,"""Black, Red""",Semi-Arid
+302,Karnataka,Gadag,"""Black, Red""",Semi-Arid
+303,Karnataka,Hassan,"""Red, Laterite""",Tropical Monsoon
+304,Karnataka,Haveri,"""Black, Red""",Semi-Arid
+305,Karnataka,Kalaburagi,"""Black, Red""",Semi-Arid
+306,Karnataka,Kodagu,"""Laterite, Forest""",Tropical Monsoon
+307,Karnataka,Kolar,"""Red, Laterite""",Tropical Wet and Dry
+308,Karnataka,Koppal,"""Black, Red""",Semi-Arid
+309,Karnataka,Mandya,"""Red, Laterite""",Tropical Wet and Dry
+310,Karnataka,Mysuru,"""Red, Laterite""",Tropical Wet and Dry
+311,Karnataka,Raichur,"""Black, Red""",Semi-Arid
+312,Karnataka,Ramanagara,"""Red, Laterite""",Tropical Wet and Dry
+313,Karnataka,Shivamogga,"""Red, Laterite""",Tropical Monsoon
+314,Karnataka,Tumakuru,"""Red, Laterite""",Tropical Wet and Dry
+315,Karnataka,Udupi,"""Laterite, Coastal""",Tropical Monsoon
+316,Karnataka,Uttara Kannada,"""Laterite, Coastal""",Tropical Monsoon
+317,Karnataka,Vijayapura,"""Black, Red""",Semi-Arid
+318,Karnataka,Yadgir,"""Black, Red""",Semi-Arid
+319,Kerala,Thiruvananthapuram,"""Laterite, Coastal""",Tropical Savanna
+320,Kerala,Kollam,"""Laterite, Coastal""",Tropical Monsoon
+321,Kerala,Pathanamthitta,"""Laterite, Forest""",Tropical Monsoon
+322,Kerala,Alappuzha,"""Alluvial, Coastal""",Tropical Monsoon
+323,Kerala,Kottayam,"""Laterite, Alluvial""",Tropical Monsoon
+324,Kerala,Idukki,"""Laterite, Forest""",Tropical Monsoon
+325,Kerala,Ernakulam,"""Alluvial, Coastal""",Tropical Monsoon
+326,Kerala,Thrissur,"""Laterite, Alluvial""",Tropical Monsoon
+327,Kerala,Palakkad,"""Laterite, Alluvial""",Tropical Monsoon
+328,Kerala,Malappuram,"""Laterite, Alluvial""",Tropical Monsoon
+329,Kerala,Kozhikode,"""Laterite, Coastal""",Tropical Monsoon
+330,Kerala,Wayanad,"""Laterite, Forest""",Tropical Monsoon
+331,Kerala,Kannur,"""Laterite, Coastal""",Tropical Monsoon
+332,Kerala,Kasaragod,"""Laterite, Coastal""",Tropical Monsoon
+333,Ladakh,Kargil,"""Cold Desert, Alpine""",Cold Arid
+334,Ladakh,Leh,"""Cold Desert, Alpine""",Cold Arid
+335,Ladakh,Changthang,"""Cold Desert, Alpine""",Cold Arid
+336,Ladakh,Drass,"""Cold Desert, Alpine""",Cold Arid
+337,Ladakh,Nubra,"""Cold Desert, Alpine""",Cold Arid
+338,Ladakh,Sham,"""Cold Desert, Alpine""",Cold Arid
+339,Ladakh,Zanskar,"""Cold Desert, Alpine""",Cold Arid
+340,Lakshadweep,Lakshadweep,"""Coastal, Sandy""",Tropical Humid
+341,Madhya Pradesh,Alirajpur,"""Black, Alluvial""",Tropical Monsoon
+342,Madhya Pradesh,Anuppur,"""Black, Alluvial""",Tropical Monsoon
+343,Madhya Pradesh,Ashoknagar,"""Black, Alluvial""",Tropical Monsoon
+344,Madhya Pradesh,Balaghat,"""Black, Alluvial""",Tropical Monsoon
+345,Madhya Pradesh,Barwani,"""Black, Alluvial""",Tropical Monsoon
+346,Madhya Pradesh,Betul,"""Black, Alluvial""",Tropical Monsoon
+347,Madhya Pradesh,Bhind,"""Alluvial, Sandy""",Semi-Arid
+348,Madhya Pradesh,Bhopal,"""Black, Alluvial""",Tropical Monsoon
+349,Madhya Pradesh,Burhanpur,"""Black, Alluvial""",Tropical Monsoon
+350,Madhya Pradesh,Chhatarpur,"""Black, Alluvial""",Semi-Arid
+351,Madhya Pradesh,Chhindwara,"""Black, Alluvial""",Tropical Monsoon
+352,Madhya Pradesh,Damoh,"""Black, Alluvial""",Tropical Monsoon
+353,Madhya Pradesh,Datia,"""Alluvial, Sandy""",Semi-Arid
+354,Madhya Pradesh,Dewas,"""Black, Alluvial""",Tropical Monsoon
+355,Madhya Pradesh,Dhar,"""Black, Alluvial""",Tropical Monsoon
+356,Madhya Pradesh,Dindori,"""Black, Alluvial""",Tropical Monsoon
+357,Madhya Pradesh,Guna,"""Black, Alluvial""",Tropical Monsoon
+358,Madhya Pradesh,Gwalior,"""Alluvial, Sandy""",Semi-Arid
+359,Madhya Pradesh,Harda,"""Black, Alluvial""",Tropical Monsoon
+360,Madhya Pradesh,Hoshangabad,"""Black, Alluvial""",Tropical Monsoon
+361,Madhya Pradesh,Indore,"""Black, Alluvial""",Tropical Monsoon
+362,Madhya Pradesh,Jabalpur,"""Black, Alluvial""",Tropical Monsoon
+363,Madhya Pradesh,Jhabua,"""Black, Alluvial""",Tropical Monsoon
+364,Madhya Pradesh,Katni,"""Black, Alluvial""",Tropical Monsoon
+365,Madhya Pradesh,Khandwa,"""Black, Alluvial""",Tropical Monsoon
+366,Madhya Pradesh,Khargone,"""Black, Alluvial""",Tropical Monsoon
+367,Madhya Pradesh,Mandla,"""Black, Alluvial""",Tropical Monsoon
+368,Madhya Pradesh,Mandsaur,"""Black, Alluvial""",Semi-Arid
+369,Madhya Pradesh,Morena,"""Alluvial, Sandy""",Semi-Arid
+370,Madhya Pradesh,Narsinghpur,"""Black, Alluvial""",Tropical Monsoon
+371,Madhya Pradesh,Neemuch,"""Black, Alluvial""",Semi-Arid
+372,Madhya Pradesh,Niwari,"""Black, Alluvial""",Semi-Arid
+373,Madhya Pradesh,Panna,"""Black, Alluvial""",Tropical Monsoon
+374,Madhya Pradesh,Raisen,"""Black, Alluvial""",Tropical Monsoon
+375,Madhya Pradesh,Rajgarh,"""Black, Alluvial""",Tropical Monsoon
+376,Madhya Pradesh,Ratlam,"""Black, Alluvial""",Tropical Monsoon
+377,Madhya Pradesh,Rewa,"""Black, Alluvial""",Tropical Monsoon
+378,Madhya Pradesh,Sagar,"""Black, Alluvial""",Tropical Monsoon
+379,Madhya Pradesh,Satna,"""Black, Alluvial""",Tropical Monsoon
+380,Madhya Pradesh,Sehore,"""Black, Alluvial""",Tropical Monsoon
+381,Madhya Pradesh,Seoni,"""Black, Alluvial""",Tropical Monsoon
+382,Madhya Pradesh,Shahdol,"""Black, Alluvial""",Tropical Monsoon
+383,Madhya Pradesh,Shajapur,"""Black, Alluvial""",Tropical Monsoon
+384,Madhya Pradesh,Sheopur,"""Alluvial, Sandy""",Semi-Arid
+385,Madhya Pradesh,Shivpuri,"""Alluvial, Sandy""",Semi-Arid
+386,Madhya Pradesh,Sidhi,"""Black, Alluvial""",Tropical Monsoon
+387,Madhya Pradesh,Singrauli,"""Black, Alluvial""",Tropical Monsoon
+388,Madhya Pradesh,Tikamgarh,"""Alluvial, Sandy""",Semi-Arid
+389,Madhya Pradesh,Ujjain,"""Black, Alluvial""",Tropical Monsoon
+390,Madhya Pradesh,Umaria,"""Black, Alluvial""",Tropical Monsoon
+391,Madhya Pradesh,Vidisha,"""Black, Alluvial""",Tropical Monsoon
+392,Maharashtra,Ahmednagar,"""Black, Alluvial""",Tropical Monsoon
+393,Maharashtra,Akola,"""Black, Alluvial""",Tropical Monsoon
+394,Maharashtra,Amravati,"""Black, Alluvial""",Tropical Monsoon
+395,Maharashtra,Aurangabad,"""Black, Alluvial""",Tropical Monsoon
+396,Maharashtra,Beed,"""Black, Alluvial""",Tropical Monsoon
+397,Maharashtra,Bhandara,"""Black, Alluvial""",Tropical Monsoon
+398,Maharashtra,Buldhana,"""Black, Alluvial""",Tropical Monsoon
+399,Maharashtra,Chandrapur,"""Black, Alluvial""",Tropical Monsoon
+400,Maharashtra,Dhule,"""Black, Loamy""",Tropical Monsoon
+401,Maharashtra,Gadchiroli,"""Laterite, Red""",Tropical Monsoon
+402,Maharashtra,Gondia,"""Black, Alluvial""",Tropical Monsoon
+403,Maharashtra,Hingoli,"""Black, Loamy""",Tropical Monsoon
+404,Maharashtra,Jalgaon,"""Black, Loamy""",Tropical Monsoon
+405,Maharashtra,Jalna,"""Black, Loamy""",Tropical Monsoon
+406,Maharashtra,Kolhapur,"""Black, Laterite""",Tropical Monsoon
+407,Maharashtra,Latur,"""Black, Loamy""",Tropical Monsoon
+408,Maharashtra,Mumbai City,"""Coastal, Sandy""",Tropical Monsoon
+409,Maharashtra,Mumbai Suburban,"""Coastal, Sandy""",Tropical Monsoon
+410,Maharashtra,Nagpur,"""Black, Laterite""",Tropical Monsoon
+411,Maharashtra,Nanded,"""Black, Loamy""",Tropical Monsoon
+412,Maharashtra,Nandurbar,"""Black, Loamy""",Tropical Monsoon
+413,Maharashtra,Nashik,"""Black, Loamy""",Tropical Monsoon
+414,Maharashtra,Osmanabad,"""Black, Loamy""",Tropical Monsoon
+415,Maharashtra,Palghar,"""Coastal, Sandy""",Tropical Monsoon
+416,Maharashtra,Parbhani,"""Black, Loamy""",Tropical Monsoon
+417,Maharashtra,Pune,"""Black, Laterite""",Tropical Monsoon
+418,Maharashtra,Raigad,"""Coastal, Laterite""",Tropical Monsoon
+419,Maharashtra,Ratnagiri,"""Coastal, Laterite""",Tropical Monsoon
+420,Maharashtra,Sangli,"""Black, Loamy""",Tropical Monsoon
+421,Maharashtra,Satara,"""Black, Laterite""",Tropical Monsoon
+422,Maharashtra,Sindhudurg,"""Coastal, Laterite""",Tropical Monsoon
+423,Maharashtra,Solapur,"""Black, Loamy""",Tropical Monsoon
+424,Maharashtra,Thane,"""Coastal, Sandy""",Tropical Monsoon
+425,Maharashtra,Wardha,"""Black, Loamy""",Tropical Monsoon
+426,Maharashtra,Washim,"""Black, Loamy""",Tropical Monsoon
+427,Maharashtra,Yavatmal,"""Black, Loamy""",Tropical Monsoon
+428,Manipur,Bishnupur,"""Alluvial, Clayey""",Subtropical Monsoon
+429,Manipur,Chandel,"""Forest, Laterite""",Subtropical Monsoon
+430,Manipur,Churachandpur,"""Forest, Laterite""",Subtropical Monsoon
+431,Manipur,Imphal East,"""Alluvial, Clayey""",Subtropical Monsoon
+432,Manipur,Imphal West,"""Alluvial, Clayey""",Subtropical Monsoon
+433,Manipur,Jiribam,"""Alluvial, Clayey""",Subtropical Monsoon
+434,Manipur,Kakching,"""Alluvial, Clayey""",Subtropical Monsoon
+435,Manipur,Kamjong,"""Forest, Laterite""",Subtropical Monsoon
+436,Manipur,Kangpokpi,"""Forest, Laterite""",Subtropical Monsoon
+437,Manipur,Noney,"""Forest, Laterite""",Subtropical Monsoon
+438,Manipur,Pherzawl,"""Forest, Laterite""",Subtropical Monsoon
+439,Manipur,Senapati,"""Forest, Laterite""",Subtropical Monsoon
+440,Manipur,Tamenglong,"""Forest, Laterite""",Subtropical Monsoon
+441,Manipur,Tengnoupal,"""Forest, Laterite""",Subtropical Monsoon
+442,Manipur,Thoubal,"""Alluvial, Clayey""",Subtropical Monsoon
+443,Manipur,Ukhrul,"""Forest, Laterite""",Subtropical Monsoon
+444,Meghalaya,East Garo Hills,"""Forest, Laterite""",Subtropical Monsoon
+445,Meghalaya,East Jaintia Hills,"""Forest, Laterite""",Subtropical Monsoon
+446,Meghalaya,East Khasi Hills,"""Forest, Laterite""",Subtropical Monsoon
+447,Meghalaya,North Garo Hills,"""Forest, Laterite""",Subtropical Monsoon
+448,Meghalaya,Ri-Bhoi,"""Forest, Laterite""",Subtropical Monsoon
+449,Meghalaya,South Garo Hills,"""Forest, Laterite""",Subtropical Monsoon
+450,Meghalaya,South West Garo Hills,"""Forest, Laterite""",Subtropical Monsoon
+451,Meghalaya,South West Khasi Hills,"""Forest, Laterite""",Subtropical Monsoon
+452,Meghalaya,West Garo Hills,"""Forest, Laterite""",Subtropical Monsoon
+453,Meghalaya,West Jaintia Hills,"""Forest, Laterite""",Subtropical Monsoon
+454,Meghalaya,West Khasi Hills,"""Forest, Laterite""",Subtropical Monsoon
+455,Meghalaya,Eastern West Khasi Hills,"""Forest, Laterite""",Subtropical Monsoon
+456,Mizoram,Aizawl,"""Forest, Laterite""",Subtropical Monsoon
+457,Mizoram,Champhai,"""Forest, Laterite""",Subtropical Monsoon
+458,Mizoram,Hnahthial,"""Forest, Laterite""",Subtropical Monsoon
+459,Mizoram,Khawzawl,"""Forest, Laterite""",Subtropical Monsoon
+460,Mizoram,Kolasib,"""Forest, Laterite""",Subtropical Monsoon
+461,Mizoram,Lawngtlai,"""Forest, Laterite""",Subtropical Monsoon
+462,Mizoram,Lunglei,"""Forest, Laterite""",Subtropical Monsoon
+463,Mizoram,Mamit,"""Forest, Laterite""",Subtropical Monsoon
+464,Mizoram,Saiha,"""Forest, Laterite""",Subtropical Monsoon
+465,Mizoram,Saitual,"""Forest, Laterite""",Subtropical Monsoon
+466,Mizoram,Serchhip,"""Forest, Laterite""",Subtropical Monsoon
+467,Nagaland,Chümoukedima,"""Forest, Laterite""",Subtropical Monsoon
+468,Nagaland,Dimapur,"""Alluvial, Clayey""",Subtropical Monsoon
+469,Nagaland,Kiphire,"""Forest, Laterite""",Subtropical Monsoon
+470,Nagaland,Kohima,"""Forest, Laterite""",Subtropical Monsoon
+471,Nagaland,Longleng,"""Forest, Laterite""",Subtropical Monsoon
+472,Nagaland,Mokokchung,"""Forest, Laterite""",Subtropical Monsoon
+473,Nagaland,Mon,"""Forest, Laterite""",Subtropical Monsoon
+474,Nagaland,Niuland,"""Alluvial, Clayey""",Subtropical Monsoon
+475,Nagaland,Noklak,"""Forest, Laterite""",Subtropical Monsoon
+476,Nagaland,Peren,"""Forest, Laterite""",Subtropical Monsoon
+477,Nagaland,Phek,"""Forest, Laterite""",Subtropical Monsoon
+478,Nagaland,Shamator,"""Forest, Laterite""",Subtropical Monsoon
+479,Nagaland,Tseminyü,"""Forest, Laterite""",Subtropical Monsoon
+480,Nagaland,Tuensang,"""Forest, Laterite""",Subtropical Monsoon
+481,Nagaland,Wokha,"""Forest, Laterite""",Subtropical Monsoon
+482,Nagaland,Zünheboto,"""Forest, Laterite""",Subtropical Monsoon
+483,Odisha,Angul,"""Red, Laterite""",Tropical
+484,Odisha,Balangir,"""Red, Laterite""",Tropical
+485,Odisha,Balasore,"""Alluvial, Coastal""",Tropical
+486,Odisha,Bargarh,"""Red, Laterite""",Tropical
+487,Odisha,Bhadrak,"""Alluvial, Coastal""",Tropical
+488,Odisha,Boudh,"""Red, Laterite""",Tropical
+489,Odisha,Cuttack,"""Alluvial, Coastal""",Tropical
+490,Odisha,Deogarh,"""Red, Laterite""",Tropical
+491,Odisha,Dhenkanal,"""Red, Laterite""",Tropical
+492,Odisha,Gajapati,"""Red, Laterite""",Tropical
+493,Odisha,Ganjam,"""Alluvial, Coastal""",Tropical
+494,Odisha,Jagatsinghpur,"""Alluvial, Coastal""",Tropical
+495,Odisha,Jajpur,"""Alluvial, Coastal""",Tropical
+496,Odisha,Jharsuguda,"""Red, Laterite""",Tropical
+497,Odisha,Kalahandi,"""Red, Laterite""",Tropical
+498,Odisha,Kandhamal,"""Red, Laterite""",Tropical
+499,Odisha,Kendrapara,"""Alluvial, Coastal""",Tropical
+500,Odisha,Keonjhar,"""Red, Laterite""",Tropical
+501,Odisha,Khordha,"""Alluvial, Coastal""",Tropical
+502,Odisha,Koraput,"""Red, Laterite""",Tropical
+503,Odisha,Malkangiri,"""Red, Laterite""",Tropical
+504,Odisha,Mayurbhanj,"""Red, Laterite""",Tropical
+505,Odisha,Nabarangpur,"""Red, Laterite""",Tropical
+506,Odisha,Nayagarh,"""Alluvial, Coastal""",Tropical
+507,Odisha,Nuapada,"""Red, Laterite""",Tropical
+508,Odisha,Puri,"""Alluvial, Coastal""",Tropical
+509,Odisha,Rayagada,"""Red, Laterite""",Tropical
+510,Odisha,Sambalpur,"""Red, Laterite""",Tropical
+511,Odisha,Subarnapur,"""Red, Laterite""",Tropical
+512,Odisha,Sundargarh,"""Red, Laterite""",Tropical
+513,Puducherry,Puducherry,"""Coastal, Sandy""",Tropical
+514,Puducherry,Karaikal,"""Coastal, Sandy""",Tropical
+515,Puducherry,Mahe,"""Coastal, Sandy""",Tropical Monsoon
+516,Puducherry,Yanam,"""Coastal, Sandy""",Tropical
+517,Punjab,Amritsar,"""Alluvial, Loamy""",Subtropical
+518,Punjab,Barnala,"""Alluvial, Loamy""",Subtropical
+519,Punjab,Bathinda,"""Alluvial, Loamy""",Semi-Arid
+520,Punjab,Faridkot,"""Alluvial, Loamy""",Subtropical
+521,Punjab,Fatehgarh Sahib,"""Alluvial, Loamy""",Subtropical
+522,Punjab,Fazilka,"""Alluvial, Loamy""",Semi-Arid
+523,Punjab,Ferozepur,"""Alluvial, Loamy""",Semi-Arid
+524,Punjab,Gurdaspur,"""Alluvial, Loamy""",Subtropical
+525,Punjab,Hoshiarpur,"""Alluvial, Loamy""",Subtropical
+526,Punjab,Jalandhar,"""Alluvial, Loamy""",Subtropical
+527,Punjab,Kapurthala,"""Alluvial, Loamy""",Subtropical
+528,Punjab,Ludhiana,"""Alluvial, Loamy""",Subtropical
+529,Punjab,Mansa,"""Alluvial, Loamy""",Semi-Arid
+530,Punjab,Moga,"""Alluvial, Loamy""",Subtropical
+531,Punjab,Muktsar,"""Alluvial, Loamy""",Semi-Arid
+532,Punjab,Nawanshahr,"""Alluvial, Loamy""",Subtropical
+533,Punjab,Pathankot,"""Alluvial, Loamy""",Subtropical
+534,Punjab,Patiala,"""Alluvial, Loamy""",Subtropical
+535,Punjab,Rupnagar,"""Alluvial, Loamy""",Subtropical
+536,Punjab,Sangrur,"""Alluvial, Loamy""",Subtropical
+537,Punjab,SAS Nagar,"""Alluvial, Loamy""",Subtropical
+538,Punjab,Tarn Taran,"""Alluvial, Loamy""",Subtropical
+539,Rajasthan,Ajmer,"""Sandy, Loamy""",Semi-Arid
+540,Rajasthan,Alwar,"""Sandy, Loamy""",Semi-Arid
+541,Rajasthan,Banswara,"""Sandy, Loamy""",Humid
+542,Rajasthan,Baran,"""Sandy, Loamy""",Humid
+543,Rajasthan,Barmer,"""Sandy, Loamy""",Arid
+544,Rajasthan,Bharatpur,"""Sandy, Loamy""",Semi-Arid
+545,Rajasthan,Bhilwara,"""Sandy, Loamy""",Semi-Arid
+546,Rajasthan,Bikaner,"""Sandy, Loamy""",Arid
+547,Rajasthan,Bundi,"""Sandy, Loamy""",Humid
+548,Rajasthan,Chittorgarh,"""Sandy, Loamy""",Semi-Arid
+549,Rajasthan,Churu,"""Sandy, Loamy""",Arid
+550,Rajasthan,Dausa,"""Sandy, Loamy""",Semi-Arid
+551,Rajasthan,Dholpur,"""Sandy, Loamy""",Semi-Arid
+552,Rajasthan,Dungarpur,"""Sandy, Loamy""",Humid
+553,Rajasthan,Ganganagar,"""Sandy, Loamy""",Arid
+554,Rajasthan,Hanumangarh,"""Sandy, Loamy""",Arid
+555,Rajasthan,Jaipur,"""Sandy, Loamy""",Semi-Arid
+556,Rajasthan,Jaisalmer,"""Sandy, Loamy""",Arid
+557,Rajasthan,Jalore,"""Sandy, Loamy""",Arid
+558,Rajasthan,Jhalawar,"""Sandy, Loamy""",Humid
+559,Rajasthan,Jhunjhunu,"""Sandy, Loamy""",Semi-Arid
+560,Rajasthan,Jodhpur,"""Sandy, Loamy""",Arid
+561,Rajasthan,Karauli,"""Sandy, Loamy""",Semi-Arid
+562,Rajasthan,Kota,"""Sandy, Loamy""",Humid
+563,Rajasthan,Nagaur,"""Sandy, Loamy""",Arid
+564,Rajasthan,Pali,"""Sandy, Loamy""",Arid
+565,Rajasthan,Pratapgarh,"""Sandy, Loamy""",Humid
+566,Rajasthan,Rajsamand,"""Sandy, Loamy""",Semi-Arid
+567,Rajasthan,Sawai Madhopur,"""Sandy, Loamy""",Semi-Arid
+568,Rajasthan,Sikar,"""Sandy, Loamy""",Semi-Arid
+569,Rajasthan,Sirohi,"""Sandy, Loamy""",Humid
+570,Rajasthan,Tonk,"""Sandy, Loamy""",Semi-Arid
+571,Rajasthan,Udaipur,"""Sandy, Loamy""",Humid
+572,Sikkim,East Sikkim,"""Forest, Alpine""",Humid Subtropical to Alpine
+573,Sikkim,West Sikkim,"""Forest, Alpine""",Humid Subtropical to Alpine
+574,Sikkim,North Sikkim,"""Forest, Alpine""",Alpine & Cold Desert
+575,Sikkim,South Sikkim,"""Forest, Alpine""",Humid Subtropical
+576,Sikkim,Pakyong,"""Forest, Alpine""",Humid Subtropical
+577,Sikkim,Soreng,"""Forest, Alpine""",Humid Subtropical
+578,Tamil Nadu,Ariyalur,"""Alluvial, Clayey""",Tropical Wet & Dry
+579,Tamil Nadu,Chengalpattu,"""Alluvial, Clayey""",Tropical Wet & Dry
+580,Tamil Nadu,Chennai,"""Coastal, Sandy""",Tropical Wet & Dry
+581,Tamil Nadu,Coimbatore,"""Red, Loamy""",Tropical Wet & Dry
+582,Tamil Nadu,Cuddalore,"""Alluvial, Clayey""",Tropical Wet & Dry
+583,Tamil Nadu,Dharmapuri,"""Red, Loamy""",Tropical Wet & Dry
+584,Tamil Nadu,Dindigul,"""Red, Loamy""",Tropical Wet & Dry
+585,Tamil Nadu,Erode,"""Red, Loamy""",Tropical Wet & Dry
+586,Tamil Nadu,Kallakurichi,"""Red, Loamy""",Tropical Wet & Dry
+587,Tamil Nadu,Kanchipuram,"""Alluvial, Clayey""",Tropical Wet & Dry
+588,Tamil Nadu,Kanniyakumari,"""Coastal, Sandy""",Tropical Monsoon
+589,Tamil Nadu,Karur,"""Red, Loamy""",Tropical Wet & Dry
+590,Tamil Nadu,Krishnagiri,"""Red, Loamy""",Tropical Wet & Dry
+591,Tamil Nadu,Madurai,"""Red, Loamy""",Tropical Wet & Dry
+592,Tamil Nadu,Mayiladuthurai,"""Alluvial, Clayey""",Tropical Wet & Dry
+593,Tamil Nadu,Nagapattinam,"""Alluvial, Clayey""",Tropical Wet & Dry
+594,Tamil Nadu,Namakkal,"""Red, Loamy""",Tropical Wet & Dry
+595,Tamil Nadu,Nilgiris,"""Forest, Laterite""",Subtropical Highland
+596,Tamil Nadu,Perambalur,"""Alluvial, Clayey""",Tropical Wet & Dry
+597,Tamil Nadu,Pudukkottai,"""Red, Loamy""",Tropical Wet & Dry
+598,Tamil Nadu,Ramanathapuram,"""Coastal, Sandy""",Tropical Wet & Dry
+599,Tamil Nadu,Ranipet,"""Red, Loamy""",Tropical Wet & Dry
+600,Tamil Nadu,Salem,"""Red, Loamy""",Tropical Wet & Dry
+601,Tamil Nadu,Sivaganga,"""Alluvial, Clayey""",Tropical Wet & Dry
+602,Tamil Nadu,Tenkasi,"""Red, Loamy""",Tropical Wet & Dry
+603,Tamil Nadu,Thanjavur,"""Alluvial, Clayey""",Tropical Wet & Dry
+604,Tamil Nadu,Theni,"""Red, Loamy""",Tropical Wet & Dry
+605,Tamil Nadu,Thoothukudi,"""Coastal, Sandy""",Tropical Wet & Dry
+606,Tamil Nadu,Tiruchirappalli,"""Alluvial, Clayey""",Tropical Wet & Dry
+607,Tamil Nadu,Tirunelveli,"""Coastal, Sandy""",Tropical Wet & Dry
+608,Tamil Nadu,Tirupattur,"""Red, Loamy""",Tropical Wet & Dry
+609,Tamil Nadu,Tiruppur,"""Red, Loamy""",Tropical Wet & Dry
+610,Tamil Nadu,Tiruvallur,"""Alluvial, Clayey""",Tropical Wet & Dry
+611,Tamil Nadu,Tiruvannamalai,"""Red, Loamy""",Tropical Wet & Dry
+612,Tamil Nadu,Tiruvarur,"""Alluvial, Clayey""",Tropical Wet & Dry
+613,Tamil Nadu,Vellore,"""Red, Loamy""",Tropical Wet & Dry
+614,Tamil Nadu,Viluppuram,"""Alluvial, Clayey""",Tropical Wet & Dry
+615,Tamil Nadu,Virudhunagar,"""Red, Loamy""",Tropical Wet & Dry
+616,Telangana,Adilabad,"""Black, Red""",Tropical Savanna
+617,Telangana,Bhadradri Kothagudem,"""Red, Black""",Tropical Savanna
+618,Telangana,Hyderabad,"""Red, Sandy""",Tropical Savanna
+619,Telangana,Jagtial,"""Black, Red""",Tropical Savanna
+620,Telangana,Jangaon,"""Black, Red""",Tropical Savanna
+621,Telangana,Jayashankar Bhupalpally,"""Black, Red""",Tropical Savanna
+622,Telangana,Jogulamba Gadwal,"""Black, Red""",Tropical Savanna
+623,Telangana,Kamareddy,"""Black, Red""",Tropical Savanna
+624,Telangana,Karimnagar,"""Black, Red""",Tropical Savanna
+625,Telangana,Khammam,"""Red, Black""",Tropical Savanna
+626,Telangana,Komaram Bheem Asifabad,"""Black, Red""",Tropical Savanna
+627,Telangana,Mahabubabad,"""Black, Red""",Tropical Savanna
+628,Telangana,Mahabubnagar,"""Black, Red""",Tropical Savanna
+629,Telangana,Mancherial,"""Black, Red""",Tropical Savanna
+630,Telangana,Medak,"""Black, Red""",Tropical Savanna
+631,Telangana,Medchal-Malkajgiri,"""Red, Sandy""",Tropical Savanna
+632,Telangana,Mulugu,"""Black, Red""",Tropical Savanna
+633,Telangana,Nagarkurnool,"""Black, Red""",Tropical Savanna
+634,Telangana,Nalgonda,"""Black, Red""",Tropical Savanna
+635,Telangana,Narayanpet,"""Black, Red""",Tropical Savanna
+636,Telangana,Nirmal,"""Black, Red""",Tropical Savanna
+637,Telangana,Nizamabad,"""Black, Red""",Tropical Savanna
+638,Telangana,Peddapalli,"""Black, Red""",Tropical Savanna
+639,Telangana,Rajanna Sircilla,"""Black, Red""",Tropical Savanna
+640,Telangana,Rangareddy,"""Red, Sandy""",Tropical Savanna
+641,Telangana,Sangareddy,"""Black, Red""",Tropical Savanna
+642,Telangana,Siddipet,"""Black, Red""",Tropical Savanna
+643,Telangana,Suryapet,"""Black, Red""",Tropical Savanna
+644,Telangana,Vikarabad,"""Black, Red""",Tropical Savanna
+645,Telangana,Wanaparthy,"""Black, Red""",Tropical Savanna
+646,Telangana,Warangal Rural,"""Black, Red""",Tropical Savanna
+647,Telangana,Warangal Urban,"""Black, Red""",Tropical Savanna
+648,Telangana,Yadadri Bhuvanagiri,"""Black, Red""",Tropical Savanna
+649,Tripura,Dhalai,"""Forest, Laterite""",Humid Subtropical
+650,Tripura,Gomati,"""Forest, Laterite""",Humid Subtropical
+651,Tripura,Khowai,"""Forest, Laterite""",Humid Subtropical
+652,Tripura,North Tripura,"""Forest, Laterite""",Humid Subtropical
+653,Tripura,Sepahijala,"""Forest, Laterite""",Humid Subtropical
+654,Tripura,South Tripura,"""Forest, Laterite""",Humid Subtropical
+655,Tripura,Unakoti,"""Forest, Laterite""",Humid Subtropical
+656,Tripura,West Tripura,"""Forest, Laterite""",Humid Subtropical
+657,Uttar Pradesh,Agra,"""Alluvial, Sandy""",Humid Subtropical
+658,Uttar Pradesh,Aligarh,"""Alluvial, Sandy""",Humid Subtropical
+659,Uttar Pradesh,Ambedkar Nagar,"""Alluvial, Sandy""",Humid Subtropical
+660,Uttar Pradesh,Amethi,"""Alluvial, Sandy""",Humid Subtropical
+661,Uttar Pradesh,Amroha,"""Alluvial, Sandy""",Humid Subtropical
+662,Uttar Pradesh,Auraiya,"""Alluvial, Sandy""",Humid Subtropical
+663,Uttar Pradesh,Ayodhya,"""Alluvial, Sandy""",Humid Subtropical
+664,Uttar Pradesh,Azamgarh,"""Alluvial, Sandy""",Humid Subtropical
+665,Uttar Pradesh,Baghpat,"""Alluvial, Sandy""",Humid Subtropical
+666,Uttar Pradesh,Bahraich,"""Alluvial, Sandy""",Humid Subtropical
+667,Uttar Pradesh,Ballia,"""Alluvial, Sandy""",Humid Subtropical
+668,Uttar Pradesh,Balrampur,"""Alluvial, Sandy""",Humid Subtropical
+669,Uttar Pradesh,Banda,"""Alluvial, Sandy""",Humid Subtropical
+670,Uttar Pradesh,Barabanki,"""Alluvial, Sandy""",Humid Subtropical
+671,Uttar Pradesh,Bareilly,"""Alluvial, Sandy""",Humid Subtropical
+672,Uttar Pradesh,Basti,"""Alluvial, Sandy""",Humid Subtropical
+673,Uttar Pradesh,Bhadohi,"""Alluvial, Sandy""",Humid Subtropical
+674,Uttar Pradesh,Bijnor,"""Alluvial, Sandy""",Humid Subtropical
+675,Uttar Pradesh,Budaun,"""Alluvial, Sandy""",Humid Subtropical
+676,Uttar Pradesh,Bulandshahr,"""Alluvial, Sandy""",Humid Subtropical
+677,Uttar Pradesh,Chandauli,"""Alluvial, Sandy""",Humid Subtropical
+678,Uttar Pradesh,Chitrakoot,"""Alluvial, Sandy""",Humid Subtropical
+679,Uttar Pradesh,Deoria,"""Alluvial, Sandy""",Humid Subtropical
+680,Uttar Pradesh,Etah,"""Alluvial, Sandy""",Humid Subtropical
+681,Uttar Pradesh,Etawah,"""Alluvial, Sandy""",Humid Subtropical
+682,Uttar Pradesh,Farrukhabad,"""Alluvial, Sandy""",Humid Subtropical
+683,Uttar Pradesh,Fatehpur,"""Alluvial, Sandy""",Humid Subtropical
+684,Uttar Pradesh,Firozabad,"""Alluvial, Sandy""",Humid Subtropical
+685,Uttar Pradesh,Gautam Buddha Nagar,"""Alluvial, Sandy""",Humid Subtropical
+686,Uttar Pradesh,Ghaziabad,"""Alluvial, Sandy""",Humid Subtropical
+687,Uttar Pradesh,Ghazipur,"""Alluvial, Sandy""",Humid Subtropical
+688,Uttar Pradesh,Gonda,"""Alluvial, Sandy""",Humid Subtropical
+689,Uttar Pradesh,Gorakhpur,"""Alluvial, Sandy""",Humid Subtropical
+690,Uttar Pradesh,Hamirpur,"""Alluvial, Sandy""",Semi-Arid
+691,Uttar Pradesh,Hapur,"""Alluvial, Sandy""",Humid Subtropical
+692,Uttar Pradesh,Hardoi,"""Alluvial, Sandy""",Humid Subtropical
+693,Uttar Pradesh,Hathras,"""Alluvial, Sandy""",Humid Subtropical
+694,Uttar Pradesh,Jalaun,"""Alluvial, Sandy""",Semi-Arid
+695,Uttar Pradesh,Jaunpur,"""Alluvial, Sandy""",Humid Subtropical
+696,Uttar Pradesh,Jhansi,"""Alluvial, Sandy""",Semi-Arid
+697,Uttar Pradesh,Kannauj,"""Alluvial, Sandy""",Humid Subtropical
+698,Uttar Pradesh,Kanpur Dehat,"""Alluvial, Sandy""",Humid Subtropical
+699,Uttar Pradesh,Kanpur Nagar,"""Alluvial, Sandy""",Humid Subtropical
+700,Uttar Pradesh,Kasganj,"""Alluvial, Sandy""",Humid Subtropical
+701,Uttar Pradesh,Kaushambi,"""Alluvial, Sandy""",Humid Subtropical
+702,Uttar Pradesh,Kheri,"""Alluvial, Sandy""",Humid Subtropical
+703,Uttar Pradesh,Kushinagar,"""Alluvial, Sandy""",Humid Subtropical
+704,Uttar Pradesh,Lalitpur,"""Alluvial, Sandy""",Semi-Arid
+705,Uttar Pradesh,Lucknow,"""Alluvial, Sandy""",Humid Subtropical
+706,Uttar Pradesh,Maharajganj,"""Alluvial, Sandy""",Humid Subtropical
+707,Uttar Pradesh,Mahoba,"""Alluvial, Sandy""",Semi-Arid
+708,Uttar Pradesh,Mainpuri,"""Alluvial, Sandy""",Humid Subtropical
+709,Uttar Pradesh,Mathura,"""Alluvial, Sandy""",Humid Subtropical
+710,Uttar Pradesh,Mau,"""Alluvial, Sandy""",Humid Subtropical
+711,Uttar Pradesh,Meerut,"""Alluvial, Sandy""",Humid Subtropical
+712,Uttar Pradesh,Mirzapur,"""Alluvial, Sandy""",Semi-Arid
+713,Uttar Pradesh,Moradabad,"""Alluvial, Sandy""",Humid Subtropical
+714,Uttar Pradesh,Muzaffarnagar,"""Alluvial, Sandy""",Humid Subtropical
+715,Uttar Pradesh,Pilibhit,"""Alluvial, Sandy""",Humid Subtropical
+716,Uttar Pradesh,Pratapgarh,"""Alluvial, Sandy""",Humid Subtropical
+717,Uttar Pradesh,Prayagraj,"""Alluvial, Sandy""",Humid Subtropical
+718,Uttar Pradesh,Raebareli,"""Alluvial, Sandy""",Humid Subtropical
+719,Uttar Pradesh,Rampur,"""Alluvial, Sandy""",Humid Subtropical
+720,Uttar Pradesh,Saharanpur,"""Alluvial, Sandy""",Humid Subtropical
+721,Uttar Pradesh,Sambhal,"""Alluvial, Sandy""",Humid Subtropical
+722,Uttar Pradesh,Sant Kabir Nagar,"""Alluvial, Sandy""",Humid Subtropical
+723,Uttar Pradesh,Shahjahanpur,"""Alluvial, Sandy""",Humid Subtropical
+724,Uttar Pradesh,Shamli,"""Alluvial, Sandy""",Humid Subtropical
+725,Uttar Pradesh,Shravasti,"""Alluvial, Sandy""",Humid Subtropical
+726,Uttar Pradesh,Siddharthnagar,"""Alluvial, Sandy""",Humid Subtropical
+727,Uttar Pradesh,Sitapur,"""Alluvial, Sandy""",Humid Subtropical
+728,Uttar Pradesh,Sonbhadra,"""Alluvial, Sandy""",Semi-Arid
+729,Uttar Pradesh,Sultanpur,"""Alluvial, Sandy""",Humid Subtropical
+730,Uttar Pradesh,Unnao,"""Alluvial, Sandy""",Humid Subtropical
+731,Uttar Pradesh,Varanasi,"""Alluvial, Sandy""",Humid Subtropical
+732,Uttarakhand,Almora,"""Forest, Loamy""",Subtropical Monsoon
+733,Uttarakhand,Bageshwar,"""Forest, Loamy""",Subtropical Monsoon
+734,Uttarakhand,Chamoli,"""Forest, Alpine""",Subtropical Monsoon
+735,Uttarakhand,Champawat,"""Forest, Loamy""",Subtropical Monsoon
+736,Uttarakhand,Dehradun,"""Forest, Loamy""",Subtropical Monsoon
+737,Uttarakhand,Haridwar,"""Alluvial, Sandy""",Subtropical Monsoon
+738,Uttarakhand,Nainital,"""Forest, Loamy""",Subtropical Monsoon
+739,Uttarakhand,Pauri Garhwal,"""Forest, Loamy""",Subtropical Monsoon
+740,Uttarakhand,Pithoragarh,"""Forest, Alpine""",Subtropical Monsoon
+741,Uttarakhand,Rudraprayag,"""Forest, Alpine""",Subtropical Monsoon
+742,Uttarakhand,Tehri Garhwal,"""Forest, Loamy""",Subtropical Monsoon
+743,Uttarakhand,Udham Singh Nagar,"""Alluvial, Sandy""",Subtropical Monsoon
+744,Uttarakhand,Uttarkashi,"""Forest, Alpine""",Subtropical Monsoon
+745,West Bengal,Alipurduar,"""Alluvial, Forest""",Humid Subtropical
+746,West Bengal,Bankura,"""Red, Laterite""",Tropical Savanna
+747,West Bengal,Birbhum,"""Red, Laterite""",Tropical Savanna
+748,West Bengal,Cooch Behar,"""Alluvial, Sandy""",Humid Subtropical
+749,West Bengal,Dakshin Dinajpur,"""Alluvial, Sandy""",Humid Subtropical
+750,West Bengal,Darjeeling,"""Forest, Loamy""",Humid Subtropical
+751,West Bengal,Hooghly,"""Alluvial, Sandy""",Tropical Savanna
+752,West Bengal,Howrah,"""Alluvial, Sandy""",Tropical Savanna
+753,West Bengal,Jalpaiguri,"""Alluvial, Forest""",Humid Subtropical
+754,West Bengal,Jhargram,"""Red, Laterite""",Tropical Savanna
+755,West Bengal,Kalimpong,"""Forest, Loamy""",Humid Subtropical
+756,West Bengal,Kolkata,"""Alluvial, Sandy""",Tropical Savanna
+757,West Bengal,Malda,"""Alluvial, Sandy""",Humid Subtropical
+758,West Bengal,Murshidabad,"""Alluvial, Sandy""",Humid Subtropical
+759,West Bengal,Nadia,"""Alluvial, Sandy""",Tropical Savanna
+760,West Bengal,North 24 Parganas,"""Alluvial, Sandy""",Tropical Savanna
+761,West Bengal,Paschim Bardhaman,"""Alluvial, Sandy""",Tropical Savanna
+762,West Bengal,Paschim Medinipur,"""Alluvial, Sandy""",Tropical Savanna
+763,West Bengal,Purba Bardhaman,"""Alluvial, Sandy""",Tropical Savanna
+764,West Bengal,Purba Medinipur,"""Alluvial, Sandy""",Tropical Savanna
+765,West Bengal,Purulia,"""Red, Laterite""",Tropical Savanna
+766,West Bengal,South 24 Parganas,"""Alluvial, Sandy""",Tropical Savanna
+767,West Bengal,Uttar Dinajpur,"""Alluvial, Sandy""",Humid Subtropical
