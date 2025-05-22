@@ -7,13 +7,11 @@ import DistrictSelector from "../components/calculate/DistrictSelector";
 import TreeRecommendationForm from "../components/calculate/TreeRecommendationForm";
 import TreeResultsDisplay from "../components/calculate/TreeResultsDisplay";
 
-// Update DistrictData interface to include _id
 interface DistrictDataWithId extends DistrictData {
   _id: string;
 }
 
 const Calculate = () => {
-  // District form state
   const [districtInfo, setDistrictInfo] = useState<DistrictDataWithId | null>(
     null
   );
@@ -22,7 +20,6 @@ const Calculate = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Tree recommendation results
   const [recommendedTrees, setRecommendedTrees] = useState<
     Array<TreeData & { treeCount: number }>
   >([]);
@@ -33,8 +30,8 @@ const Calculate = () => {
       try {
         setLoading(true);
         const [treesResponse, districtsResponse] = await Promise.all([
-          axios.get("http://localhost:5000/api/trees"),
-          axios.get("http://localhost:5000/api/districts"),
+          axios.get("http://localhost:4000/api/trees"),
+          axios.get("http://localhost:4000/api/districts"),
         ]);
 
         // Validate and transform the data
@@ -67,13 +64,11 @@ const Calculate = () => {
     fetchData();
   }, []);
 
-  // Handle district selection
   const handleDistrictSelect = (district: DistrictDataWithId | null) => {
     setDistrictInfo(district);
-    setHasSearched(false); // Reset search state when district changes
+    setHasSearched(false);
   };
 
-  // Handle tree recommendation form submission
   const handleRecommendSubmit = (
     landAreaNum: number,
     floweringTimeNum: number
@@ -90,29 +85,31 @@ const Calculate = () => {
 
     const filteredTrees = treesData
       .filter((tree) => {
-        // Match soil type (case-insensitive)
-        const soilMatch =
-          tree.Soil_Type.toLowerCase() === districtInfo.Soil_Type.toLowerCase();
-        // Check crown area and flowering time
+        const districtSoilTypes = districtInfo.Soil_Type.toLowerCase()
+          .split(",")
+          .map((s) => s.trim());
+        const treeSoilTypes = tree.Soil_Type.toLowerCase()
+          .split(",")
+          .map((s) => s.trim());
+        const soilMatch = districtSoilTypes.some((districtSoil) =>
+          treeSoilTypes.some((treeSoil) => districtSoil === treeSoil)
+        );
+
         const areaCheck = tree.Crown_Area_m_sq <= landAreaNum;
+
         const floweringCheck =
           tree.First_Flowering_Time_years <= floweringTimeNum;
-
-        console.log(
-          `Tree: ${tree.Common_Name}, Soil Match: ${soilMatch} (${tree.Soil_Type} vs ${districtInfo.Soil_Type}), Area Check: ${areaCheck}, Flowering Check: ${floweringCheck}`
-        );
 
         return soilMatch && areaCheck && floweringCheck;
       })
       .map((tree) => {
-        // Calculate tree count
         const treeCount = Math.floor(landAreaNum / tree.Crown_Area_m_sq);
         return { ...tree, treeCount };
       });
 
     console.log(`Found ${filteredTrees.length} matching trees`);
     setRecommendedTrees(filteredTrees);
-    setHasSearched(true); // Set search state to true after search
+    setHasSearched(true);
   };
 
   if (loading) {

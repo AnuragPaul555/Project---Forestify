@@ -17,7 +17,7 @@ const Learn = () => {
     const fetchTrees = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:5000/api/trees");
+        const response = await axios.get("http://localhost:4000/api/trees");
         if (Array.isArray(response.data)) {
           setTreesData(response.data);
         } else {
