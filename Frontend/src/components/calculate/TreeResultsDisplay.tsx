@@ -101,8 +101,16 @@ const TreeResultsDisplay: React.FC<TreeResultsDisplayProps> = ({
                   <TableHead>Scientific Name</TableHead>
                   <TableHead>Soil Type</TableHead>
                   <TableHead>First Flowering (years)</TableHead>
+                  <TableHead>Full Growth Time (years)</TableHead>
                   <TableHead>Crown Area (m²)</TableHead>
-                  <TableHead>Recommended Count</TableHead>
+                  <TableHead>Tree Count</TableHead>
+                  <TableHead>Additional Benefit</TableHead>
+                  <TableHead>
+                    Carbon Sequestration First Flowering (kg/year)
+                  </TableHead>
+                  <TableHead>Oxygen Output First Flowering (kg/year)</TableHead>
+                  <TableHead>Oxygen Output Full Growth (kg/year)</TableHead>
+                  <TableHead>Carbon_Sequestration (kg/year/m²)</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -118,8 +126,22 @@ const TreeResultsDisplay: React.FC<TreeResultsDisplayProps> = ({
                     <TableCell>{tree.Scientific_Name}</TableCell>
                     <TableCell>{tree.Soil_Type}</TableCell>
                     <TableCell>{tree.First_Flowering_Time_years}</TableCell>
+                    <TableCell>{tree.Full_Growth_Time_years}</TableCell>
                     <TableCell>{tree.Crown_Area_m_sq}</TableCell>
                     <TableCell>{tree.treeCount}</TableCell>
+                    <TableCell>{tree.Additional_Benefit}</TableCell>
+                    <TableCell>
+                      {tree.Carbon_Sequestration_First_Flowering_kg_year}
+                    </TableCell>
+                    <TableCell>
+                      {tree.Oxygen_Output_First_Flowering_kg_year}
+                    </TableCell>
+                    <TableCell>
+                      {tree.Oxygen_Output_Full_Growth_kg_year}
+                    </TableCell>
+                    <TableCell>
+                      {tree.Carbon_Sequestration_kg_year_m_sq}
+                    </TableCell>
                   </TableRow>
                 ))}
               </TableBody>

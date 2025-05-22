@@ -13,6 +13,10 @@ const treeSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  Additional_Benefit: {
+    type: String,
+    required: true,
+  },
   First_Flowering_Time_years: {
     type: Number,
     required: true,

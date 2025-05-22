@@ -6,6 +6,7 @@ export interface TreeData {
   First_Flowering_Time_years: number;
   Full_Growth_Time_years: number;
   Soil_Type: string;
+  Additional_Benefit: string;
   Region_Suitability: string;
   Climate_Suitability: string;
   Above_Ground_Biomass_kg_m_sq: number;
